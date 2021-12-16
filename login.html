@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Bonheur+Royale&display=swap');
+
+
+        :root {
+            --font1: 'Baloo Bhai 2', cursive;
+            --font2: 'Bodon Moda', cursive;
+            --font3: 'Fleur De Leah', cursive;
+            --font4: 'Bonheur Rroyale', cursive;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .container {
+            padding: 96px;
+            margin: auto;
+        }
+
+        .container h2 {
+            text-align: center;
+            /* margin: 110px; */
+        }
+
+        form {
+            display: flex;
+            justify-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: var(--font1);
+        }
+
+        input {
+            width: 40vw;
+            justify-content: center;
+            width: 40%;
+            margin: 8px auto;
+            padding: 16px;
+            font-size: 15px;
+            outline: none;
+            border-radius: 5px;
+            display: block;
+            border: none;
+            font-family: var(--font1);
+            color: rgb(65, 26, 102);
+            color: blueviolet;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+        .btn {
+            color: white;
+            opacity: 0.65;
+            width: 40vw;
+            justify-content: center;
+            width: 40%;
+            margin: 8px auto;
+            padding: 11px;
+            font-size: 22px;
+            outline: none;
+            border-radius: 5px;
+            display: block;
+            border: none;
+            font-family: var(--font1);
+            background-color: rgb(65, 26, 102, 0.5);
+            cursor: pointer;
+        }
+
+        .form {
+            margin: 42px
+        }
+
+        .pass {
+            display: flex;
+            justify-content: space-around;
+            padding: 23px 335px;
+            font-family: var(--font1);
+            color: white;
+        }
+
+        .fp:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+    <img class=bg src="bridge2.jpg" alt="">
+    <div class="container">
+        <h2>LOGO</h2>
+        <form class="form" action="">
+            <input type="text" name="username" id="username" placeholder="Username">
+            <input type="text" name="password" id="username" placeholder="Password">
+            <button class="btn">Login</button>
+            <div class="pass">
+                <div class="fp">Forgot Password?</div>
+                <div class="fp">Sign Up</div>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

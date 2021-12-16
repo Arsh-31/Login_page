@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Bonheur+Royale&display=swap');
+
+:root {
+    --font1: 'Baloo Bhai 2', cursive;
+    --font2: 'Bodon Moda', cursive;
+    --font3: 'Fleur De Leah', cursive;
+    --font4: 'Bonheur Rroyale', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+p{
+    color: white;
+    text-align: center;
+font-family: var(--font1);
+}
+form {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 42px
+}
+input {
+    width: 40vw;
+    justify-content: center;
+    width: 40%;
+    margin: 8px auto;
+    padding: 16px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    opacity: 0.7;
+    font-family: var(--font1);
+}
+.btn {
+    color: white;
+    width: 40vw;
+    justify-content: center;
+    width: 40%;
+    margin: 8px auto;
+    padding: 11px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    background-color: rgb(65, 26, 102, 0.9);
+    font-family: var(--font1);
+    cursor: pointer;
+}
+.container {
+    padding: 96px;
+    margin: auto;
+}
+.forgot_password{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: var(--font1);
+}
+.forgot_password:hover{
+    text-decoration: underline;
+}
